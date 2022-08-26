@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+
+[[mods]]
+modId = "thicc_packets"
+version = "${file.jarVersion}"
+displayName = "Thicc Packets"
+logoFile="thicc_packets.png"
+credits="Partially ported from XLPackets"
+authors="Rybot666"
+description = '''Increases the size limits imposed on packet and NBT sizes.'''
+
+[[dependencies.thicc_packets]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[40,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.thicc_packets]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.18.2,1.19)"
+    ordering = "NONE"
+    side = "BOTH"

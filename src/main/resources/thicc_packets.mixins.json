@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.rybot666.thicc_packets.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "thicc_packets.refmap.json",
+  "mixins": [
+    "ClientboundCustomPayloadPacketMixin",
+    "CompressionDecoderMixin",
+    "CompressionEncoderMixin",
+    "FriendlyByteBufMixin",
+    "ServerboundCustomPayloadPacketMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
